@@ -8,8 +8,8 @@
 
 // var utils = require('@lexical/utils');
 // var lexical = require('lexical');
-import * as utils from '/third_party/js/lexical/LexicalUtils.dev.js';
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
+import * as utils from '/lexical_vanilla/third_party/js/lexical/LexicalUtils.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
 
 /** @module @lexical/history */
 const HISTORY_MERGE = 0;

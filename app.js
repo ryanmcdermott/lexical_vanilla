@@ -15,32 +15,32 @@ import {
     $isRangeSelection,
     OUTDENT_CONTENT_COMMAND,
     INDENT_CONTENT_COMMAND
-} from "/third_party/js/lexical/Lexical.dev.js";
-import { $wrapNodes, $isAtNodeEnd, $patchStyleText } from "/third_party/js/lexical/LexicalSelection.dev.js";
+} from "/lexical_vanilla/third_party/js/lexical/Lexical.dev.js";
+import { $wrapNodes, $isAtNodeEnd, $patchStyleText } from "/lexical_vanilla/third_party/js/lexical/LexicalSelection.dev.js";
 import {
     registerRichText,
     QuoteNode,
     $createQuoteNode
-} from "/third_party/js/lexical/LexicalRichText.dev.js";
+} from "/lexical_vanilla/third_party/js/lexical/LexicalRichText.dev.js";
 import {
     LinkNode,
     toggleLink,
     TOGGLE_LINK_COMMAND,
     $isLinkNode
-} from "/third_party/js/lexical/LexicalLink.dev.js";
+} from "/lexical_vanilla/third_party/js/lexical/LexicalLink.dev.js";
 import {
     $isListItemNode,
     ListNode,
     ListItemNode,
     insertList,
     removeList,
-} from "/third_party/js/lexical/LexicalList.dev.js";
+} from "/lexical_vanilla/third_party/js/lexical/LexicalList.dev.js";
 import {
     createEmptyHistoryState,
     undo,
     redo,
     registerHistory
-} from "/third_party/js/lexical/LexicalHistory.dev.js";
+} from "/lexical_vanilla/third_party/js/lexical/LexicalHistory.dev.js";
 
 function setupEditor(initState) {
     const config = {

@@ -7,7 +7,7 @@
 'use strict';
 
 // var lexical = require('lexical');
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
 
 /** @module @lexical/text */
 

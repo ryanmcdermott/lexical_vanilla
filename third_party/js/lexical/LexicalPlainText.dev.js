@@ -10,10 +10,10 @@
 // var selection = require('@lexical/selection');
 // var utils = require('@lexical/utils');
 // var lexical = require('lexical');
-import * as clipboard from '/third_party/js/lexical/LexicalClipboard.dev.js';
-import * as selection from '/third_party/js/lexical/LexicalSelection.dev.js';
-import * as utils from '/third_party/js/lexical/LexicalUtils.dev.js';
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
+import * as clipboard from '/lexical_vanilla/third_party/js/lexical/LexicalClipboard.dev.js';
+import * as selection from '/lexical_vanilla/third_party/js/lexical/LexicalSelection.dev.js';
+import * as utils from '/lexical_vanilla/third_party/js/lexical/LexicalUtils.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
 
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.

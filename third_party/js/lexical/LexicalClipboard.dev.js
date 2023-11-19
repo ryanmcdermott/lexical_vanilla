@@ -6,10 +6,10 @@
  */
 'use strict';
 
-import * as html from '/third_party/js/lexical/LexicalHtml.dev.js';
-import * as selection from '/third_party/js/lexical/LexicalSelection.dev.js';
-import * as utils from '/third_party/js/lexical/LexicalUtils.dev.js';
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
+import * as html from '/lexical_vanilla/third_party/js/lexical/LexicalHtml.dev.js';
+import * as selection from '/lexical_vanilla/third_party/js/lexical/LexicalSelection.dev.js';
+import * as utils from '/lexical_vanilla/third_party/js/lexical/LexicalUtils.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
 // var html = require('@lexical/html');
 // var selection = require('@lexical/selection');
 // var utils = require('@lexical/utils');

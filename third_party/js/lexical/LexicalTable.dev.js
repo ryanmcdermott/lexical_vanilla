@@ -8,8 +8,8 @@
 
 // var lexical = require('lexical');
 // var utils = require('@lexical/utils');
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
-import * as utils from '/third_party/js/lexical/LexicalUtils.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
+import * as utils from '/lexical_vanilla/third_party/js/lexical/LexicalUtils.dev.js';
 
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.

@@ -6,8 +6,8 @@
  */
 'use strict';
 
-import * as lexical from '/third_party/js/lexical/Lexical.dev.js';
-import * as utils from '/third_party/js/lexical/LexicalUtils.dev.js';
+import * as lexical from '/lexical_vanilla/third_party/js/lexical/Lexical.dev.js';
+import * as utils from '/lexical_vanilla/third_party/js/lexical/LexicalUtils.dev.js';
 // var lexical = require('lexical');
 // var utils = require('@lexical/utils');
 
