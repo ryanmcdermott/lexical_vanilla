@@ -369,6 +369,7 @@ function setupEditor(initState) {
     resizeObserver.observe(toolbar);
 }
 
+// Load initial state and then set up the editor.
 fetch('/lexical_vanilla/example_init_state.json')
     .then(response => {
         if (!response.ok) {
