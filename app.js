@@ -369,7 +369,7 @@ function setupEditor(initState) {
     resizeObserver.observe(toolbar);
 }
 
-fetch('/example_init_state.json')
+fetch('/lexical_vanilla/example_init_state.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
