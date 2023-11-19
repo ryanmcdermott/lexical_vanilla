@@ -1,0 +1,126 @@
+@import "third_party/css/bootstrap/bootstrap.css";
+
+body {
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#editor {
+    padding: 1rem;
+    outline: none;
+    margin-top: 3.5rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-code {
+    background-color: #f0f2f5;
+    padding: 1px 0.25rem;
+    font-family: Menlo, Consolas, Monaco, monospace;
+    font-size: 94%;
+}
+
+.text-highlight {
+    margin: 0 5px;
+}
+
+.text-strikethrough {
+    text-decoration: line-through;
+}
+
+.text-subscript {
+    vertical-align: sub;
+}
+
+.text-superscript {
+    vertical-align: super;
+}
+
+p {
+    margin: 0;
+}
+
+blockquote {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(101, 103, 107);
+    border-left-color: rgb(206, 208, 212);
+    border-left-width: 4px;
+    border-left-style: solid;
+    padding-left: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-menu-btn {
+    border: none;
+    margin-top: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width: 12rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.heading-h1 {
+    font-size: 2.125rem;
+}
+
+.heading-h2 {
+    font-size: 1.875rem;
+}
+
+.heading-h3 {
+    font-size: 1.5rem;
+}
+
+.heading-h4 {
+    font-size: 1.25rem;
+}
